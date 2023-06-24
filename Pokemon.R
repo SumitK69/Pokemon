@@ -1,4 +1,4 @@
-read.csv("C:\\Users\\hp\\Desktop\\course\\unit1\\datasets\\Pokemon.csv") -> pokemon
+read.csv("C:\\Users\\hp\\Documents\\bat cave\\course\\unit1\\project work\\pokemon\\Pokemon.csv") -> pokemon
 library(dplyr)
 
 pokemon %>% select(-1) -> pokemon
